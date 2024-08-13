@@ -1,12 +1,9 @@
 import 'dart:developer';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:task1/helper/token_storage.dart';
-import 'package:task1/view/home/home_view.dart';
-
 import '../routes/app_routes.dart';
 import '../utils/snackbar.dart';
 import '../view/auth/login_view/login_view.dart';
